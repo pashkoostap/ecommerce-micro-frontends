@@ -1,4 +1,4 @@
 {
-  "packages": ["cart", "products", "container"],
+  "packages": ["apps/*"],
   "version": "0.0.1"
 }

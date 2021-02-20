@@ -2,7 +2,7 @@ import { commerce } from 'faker';
 
 const ul = document.createElement('ul');
 
-for (let i = 0; i < 5; i++) {
+for (let i = 0; i < 10; i++) {
   const productName = commerce.productName();
   const element = document.createElement('li');
   element.innerText = productName;
@@ -10,4 +10,4 @@ for (let i = 0; i < 5; i++) {
   ul.appendChild(element);
 }
 
-document.body.appendChild(ul);
+document.getElementById('products').appendChild(ul);
