@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "noImplicitAny": true,
+    "module": "esnext",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": false,
+    "lib": [
+      "es2015",
+      "DOM"
+    ],
+    "typeRoots": [
+      "src/types/*"
+    ]
+  }
+}
